@@ -19,6 +19,7 @@ import 'presentation/bloc/search_article_bloc/search_article_bloc.dart';
 import 'presentation/pages/article_webview_page.dart';
 import 'presentation/pages/main_page.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await HttpSSLPinning.init();
